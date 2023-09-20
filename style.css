@@ -1,0 +1,69 @@
+body, input, button {
+	font-family: "Jost",-apple-system,system-ui,BlinkMacSystemFont,
+	"Segoe UI",Roboto,sans-serif;
+}
+
+.title,.subtitle {
+	text-align: center;
+	font-weight: 500;
+}
+
+th:nth-child(1) {
+	background-color: red;
+}
+
+#nav-icon {
+	margin-right: 0.5em;
+}
+
+#nav-title {
+	font-size: 1.25rem;
+}
+
+.time {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+table {
+	width: auto;
+    background-color: #D7D9F2;
+}
+
+.table td.is-booked {
+    background-color: #23D160;
+}
+
+.table td.is-blocked {
+    background-color: #363636;
+	color:white;
+}
+
+.table td.is-selected {
+    background-color: #00D1B2;
+}
+
+.table td.is-cancelled {
+    background-color: #FF3860;
+	color:white;
+}
+.timeslot {
+  background-color: #00c09d;
+  width: auto;
+  height: 20px;
+  color: white;
+  padding:2px;
+  margin-top: 2px;
+  font-size: 14px;
+  border-radius: 3px;
+  vertical-align: center; 
+   text-align:center;
+}
+.timeslot:hover { 
+  background-color: #2CA893;
+  cursor: pointer;
+}
+td{
+	text-align:center;
+}
+
